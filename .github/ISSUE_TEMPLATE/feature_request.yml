@@ -1,0 +1,23 @@
+name: Feature Request
+description: Suggest an enhancement for an Orbit project
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea to make the Orbit ecosystem better? We'd love to hear it!
+  - type: textarea
+    id: solution
+    attributes:
+      label: Describe the proposed feature
+      description: Please describe exactly what you want to happen.
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Is your feature request related to a problem? (Optional)
+      description: Please describe the problem.
+    validations:
+      required: false
